@@ -135,12 +135,11 @@ a:VISITED {
 	position: absolute;
 	left: 5px;
 	top: 5px;
-	border: thin;
-	border-color: white;
-	border-style: solid;
-	border-radius: 10px;
-	box-shadow: inset 0px 0px 20px black;
-	background-color: aqua;
+	border-radius: 2px;
+	border: 1px black dashed;
+	box-shadow: 0px 10px 20px -2px black;
+	background-color: white;
+	text-align: center;
 }
 
 #currSongDetails {
@@ -149,10 +148,9 @@ a:VISITED {
 	position: absolute;
 	top: 5px;
 	left: 22%;
-	border: thin;
-	border-color: black;
-	border-style: solid;
-	border-radius: 10px;
+	border: 1px black dashed;
+	box-shadow: 0px 10px 20px -2px black;
+	border-radius: 2px;
 }
 
 #playList {
@@ -161,10 +159,9 @@ a:VISITED {
 	position: absolute;
 	top: 5px;
 	left: 69%;
-	border: thin;
-	border-color: black;
-	border-style: solid;
-	border-radius: 10px;
+	border: 1px black dashed;
+	box-shadow: 0px 10px 20px -2px black;
+	border-radius: 2px;
 	overflow: auto
 }
 
@@ -174,9 +171,8 @@ a:VISITED {
 	left: 93%;
 	width: 5%;
 	height: 5%;
-	border: thin;
-	border-color: black;
-	border-style: solid;
+	border: 1px black dashed;
+	box-shadow: 0px 10px 20px -2px black;
 	text-align: center;
 	border-bottom-left-radius: 10px;
 	border-bottom-right-radius: 10px;
@@ -191,10 +187,8 @@ a:VISITED {
 * {
 	margin: 0;
 	padding: 0;
-	font-family: tempus sans itc;
-	font-size: 20px;
-	font-style: italic;
-	color: #CCC
+	font: CENTURY GOTHIC;
+	color: #000
 }
 
 body {
@@ -203,6 +197,8 @@ body {
 }
 
 .canvas {
+	min-width: 640px;
+	min-height: 575px;
 	width: 95%;
 	height: 95%;
 	position: absolute;
@@ -212,7 +208,7 @@ body {
 	box-shadow: rgba(1, 1, 1, 1) 0px 0px 20px;
 	-moz-box-shadow: rgba(1, 1, 1, 1) 0px 0px 20px;
 	-webkit-box-shadow: rgba(1, 1, 1, 1) 0px 0px 20px;
-	border-radius: 5px;
+	border-radius: 2px;
 }
 
 .details {
@@ -262,11 +258,10 @@ body {
 	left: 20%;
 	width: 60%;
 	height: 60%;
-	background: #39343C;
-	border: thin;
-	border-color: black;
-	border-style: solid;
-	border-radius: 10px;
+	background: white;
+	border: 1px black dashed;
+	box-shadow: 0px 10px 20px -2px black;
+	border-radius: 2px;
 	z-index: 2;
 	overflow: auto
 }
